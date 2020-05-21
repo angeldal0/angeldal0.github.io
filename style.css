@@ -1,10 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Monserrat:400,700);
 
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
 body {
     color: #555;
     margin: 0;
 
     font-family: 'Monserrat', 'sans-serif';
+    margin-bottom: 40px;
 }
 
 #header {
@@ -50,6 +56,9 @@ body {
 #footer {
     background-color: #2f2f2f;
     padding: 50px 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .column {
@@ -121,6 +130,49 @@ p {
     line-height: 1.5;
 }
 
+
 .about {
     text-align: center;
+}
+
+/* mi edit del coHeader*/
+
+#coHeader {
+    background-color: #bcfff9;
+    height: 50px;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+button {
+    background-color: white;
+    border-color: rgb(116, 255, 169);
+    border-radius: 15%;
+}
+
+button:hover {
+    color: lightcoral;
+    border-color: lightcoral;
+}
+
+.buscador {
+    float: inline-end;
+    margin-right: -500px;
+}
+
+.textoBuscador {
+    max-width: 200px;
+    float: left;
+    margin-left: 150px;
+}
+
+.textoBuscador p{
+    color: #138a72;
+    text-decoration: none;
+
+    letter-spacing: 0.1em;
+}
+#botonBuscar {
+    background-color: rgb(245, 245, 245);
 }
