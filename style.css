@@ -135,7 +135,10 @@ p {
     text-align: center;
 }
 
-/* mi edit del coHeader*/
+
+/*******************************************************************/
+/*                         mi edit del coHeader                    */
+/*******************************************************************/
 
 #coHeader {
     background-color: #bcfff9;
@@ -157,7 +160,7 @@ button:hover {
 }
 
 .buscador {
-    float: inline-end;
+    float: right;
     margin-right: -500px;
 }
 
