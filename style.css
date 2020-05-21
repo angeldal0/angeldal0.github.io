@@ -176,3 +176,7 @@ button:hover {
 #botonBuscar {
     background-color: rgb(245, 245, 245);
 }
+
+#content {
+    margin-bottom: 220px;
+}
