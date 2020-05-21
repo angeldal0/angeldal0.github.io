@@ -42,6 +42,10 @@ body {
     margin: 0 auto;
 }
 
+#content {
+    margin-bottom: 220px;
+}
+
 #header a {
     color: white;
     text-decoration: none;
@@ -135,7 +139,6 @@ p {
     text-align: center;
 }
 
-
 /*******************************************************************/
 /*                         mi edit del coHeader                    */
 /*******************************************************************/
@@ -161,13 +164,12 @@ button:hover {
 
 .buscador {
     float: right;
-    margin-right: -500px;
+    display: block; 
 }
 
 .textoBuscador {
-    max-width: 200px;
     float: left;
-    margin-left: 150px;
+    display: block;
 }
 
 .textoBuscador p{
@@ -178,8 +180,4 @@ button:hover {
 }
 #botonBuscar {
     background-color: rgb(245, 245, 245);
-}
-
-#content {
-    margin-bottom: 220px;
 }
