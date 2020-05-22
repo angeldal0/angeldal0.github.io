@@ -65,14 +65,11 @@ function filtrarPalabra(e){
     var palabraClave = document.getElementById("palabra").value;
     var titulos = document.getElementsByClassName("post-tittle");
     palabraClave = palabraClave.toLowerCase();
-    if(palabraClave === "" || palabraClave === " "){
-        return;
-    }
 
     for (var i = 0; i < titulos.length; i++){
         var palabra = titulos[i].innerHTML;
         console.log("hola" + i);
-        if (palabra.toLowerCase().indexOf(palabraClave) != -1){
+        if (palabra.toLowerCase().indexOf(palabraClave) != -1 && (palabraClave != "" && palabraClave != " ")){
             titulos[i].className = "post-tittle resaltando";
         } else {
             titulos[i].className = "post-tittle normal";
